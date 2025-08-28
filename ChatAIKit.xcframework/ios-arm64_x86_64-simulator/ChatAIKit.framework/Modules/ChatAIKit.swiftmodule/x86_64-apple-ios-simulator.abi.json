@@ -1,0 +1,3797 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ChatAIKit",
+    "printedName": "ChatAIKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Bot",
+        "printedName": "Bot",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV2idSSvp",
+            "mangledName": "$s9ChatAIKit3BotV2idSSvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV2idSSvg",
+                "mangledName": "$s9ChatAIKit3BotV2idSSvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "botId",
+            "printedName": "botId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV5botIdSSvp",
+            "mangledName": "$s9ChatAIKit3BotV5botIdSSvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV5botIdSSvg",
+                "mangledName": "$s9ChatAIKit3BotV5botIdSSvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV4nameSSvp",
+            "mangledName": "$s9ChatAIKit3BotV4nameSSvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV4nameSSvg",
+                "mangledName": "$s9ChatAIKit3BotV4nameSSvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV11descriptionSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV11descriptionSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV11descriptionSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV11descriptionSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "createdAt",
+            "printedName": "createdAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV9createdAtSSvp",
+            "mangledName": "$s9ChatAIKit3BotV9createdAtSSvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV9createdAtSSvg",
+                "mangledName": "$s9ChatAIKit3BotV9createdAtSSvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "profileId",
+            "printedName": "profileId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV9profileIdSSvp",
+            "mangledName": "$s9ChatAIKit3BotV9profileIdSSvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV9profileIdSSvg",
+                "mangledName": "$s9ChatAIKit3BotV9profileIdSSvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "welcomeMessage",
+            "printedName": "welcomeMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String?]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String?]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV14welcomeMessageSDyS2SSgGSgvp",
+            "mangledName": "$s9ChatAIKit3BotV14welcomeMessageSDyS2SSgGSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String?]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String?]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV14welcomeMessageSDyS2SSgGSgvg",
+                "mangledName": "$s9ChatAIKit3BotV14welcomeMessageSDyS2SSgGSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "icon",
+            "printedName": "icon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV4iconSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV4iconSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV4iconSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV4iconSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundLight",
+            "printedName": "backgroundLight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV15backgroundLightSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV15backgroundLightSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV15backgroundLightSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV15backgroundLightSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundDark",
+            "printedName": "backgroundDark",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV14backgroundDarkSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV14backgroundDarkSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV14backgroundDarkSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV14backgroundDarkSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headerTextLight",
+            "printedName": "headerTextLight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV15headerTextLightSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV15headerTextLightSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV15headerTextLightSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV15headerTextLightSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headerTextDark",
+            "printedName": "headerTextDark",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV14headerTextDarkSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV14headerTextDarkSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV14headerTextDarkSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV14headerTextDarkSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "botBubbleLight",
+            "printedName": "botBubbleLight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV14botBubbleLightSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV14botBubbleLightSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV14botBubbleLightSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV14botBubbleLightSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "botBubbleDark",
+            "printedName": "botBubbleDark",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV13botBubbleDarkSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV13botBubbleDarkSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV13botBubbleDarkSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV13botBubbleDarkSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "botTextLight",
+            "printedName": "botTextLight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV12botTextLightSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV12botTextLightSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV12botTextLightSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV12botTextLightSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "botTextDark",
+            "printedName": "botTextDark",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV11botTextDarkSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV11botTextDarkSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV11botTextDarkSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV11botTextDarkSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userBubbleLight",
+            "printedName": "userBubbleLight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV15userBubbleLightSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV15userBubbleLightSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV15userBubbleLightSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV15userBubbleLightSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userBubbleDark",
+            "printedName": "userBubbleDark",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV14userBubbleDarkSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV14userBubbleDarkSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV14userBubbleDarkSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV14userBubbleDarkSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userTextLight",
+            "printedName": "userTextLight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV13userTextLightSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV13userTextLightSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV13userTextLightSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV13userTextLightSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userTextDark",
+            "printedName": "userTextDark",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV12userTextDarkSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV12userTextDarkSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV12userTextDarkSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV12userTextDarkSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "language",
+            "printedName": "language",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV8languageSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV8languageSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV8languageSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV8languageSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tones",
+            "printedName": "tones",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV5tonesSaySSGSgvp",
+            "mangledName": "$s9ChatAIKit3BotV5tonesSaySSGSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV5tonesSaySSGSgvg",
+                "mangledName": "$s9ChatAIKit3BotV5tonesSaySSGSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "specializations",
+            "printedName": "specializations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV15specializationsSaySSGSgvp",
+            "mangledName": "$s9ChatAIKit3BotV15specializationsSaySSGSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV15specializationsSaySSGSgvg",
+                "mangledName": "$s9ChatAIKit3BotV15specializationsSaySSGSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "responseLength",
+            "printedName": "responseLength",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV14responseLengthSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV14responseLengthSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV14responseLengthSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV14responseLengthSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headerBackgroundLight",
+            "printedName": "headerBackgroundLight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV21headerBackgroundLightSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV21headerBackgroundLightSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV21headerBackgroundLightSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV21headerBackgroundLightSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headerBackgroundDark",
+            "printedName": "headerBackgroundDark",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV20headerBackgroundDarkSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV20headerBackgroundDarkSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV20headerBackgroundDarkSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV20headerBackgroundDarkSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "footerBackgroundLight",
+            "printedName": "footerBackgroundLight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV21footerBackgroundLightSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV21footerBackgroundLightSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV21footerBackgroundLightSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV21footerBackgroundLightSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "footerBackgroundDark",
+            "printedName": "footerBackgroundDark",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV20footerBackgroundDarkSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV20footerBackgroundDarkSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV20footerBackgroundDarkSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV20footerBackgroundDarkSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonBackgroundDark",
+            "printedName": "buttonBackgroundDark",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV20buttonBackgroundDarkSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV20buttonBackgroundDarkSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV20buttonBackgroundDarkSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV20buttonBackgroundDarkSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonBackgroundLight",
+            "printedName": "buttonBackgroundLight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV21buttonBackgroundLightSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV21buttonBackgroundLightSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV21buttonBackgroundLightSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV21buttonBackgroundLightSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonTextDark",
+            "printedName": "buttonTextDark",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV14buttonTextDarkSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV14buttonTextDarkSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV14buttonTextDarkSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV14buttonTextDarkSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonTextLight",
+            "printedName": "buttonTextLight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV15buttonTextLightSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV15buttonTextLightSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV15buttonTextLightSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV15buttonTextLightSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "addHistoryToPrompt",
+            "printedName": "addHistoryToPrompt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV18addHistoryToPromptSbSgvp",
+            "mangledName": "$s9ChatAIKit3BotV18addHistoryToPromptSbSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV18addHistoryToPromptSbSgvg",
+                "mangledName": "$s9ChatAIKit3BotV18addHistoryToPromptSbSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "openaiModel",
+            "printedName": "openaiModel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV11openaiModelSSSgvp",
+            "mangledName": "$s9ChatAIKit3BotV11openaiModelSSSgvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV11openaiModelSSSgvg",
+                "mangledName": "$s9ChatAIKit3BotV11openaiModelSSSgvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "useSendIcon",
+            "printedName": "useSendIcon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV11useSendIconSbvp",
+            "mangledName": "$s9ChatAIKit3BotV11useSendIconSbvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV11useSendIconSbvg",
+                "mangledName": "$s9ChatAIKit3BotV11useSendIconSbvg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bot",
+                "printedName": "ChatAIKit.Bot",
+                "usr": "s:9ChatAIKit3BotV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9ChatAIKit3BotV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9ChatAIKit3BotV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "ChatAIKit",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ChatAIKit3BotV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9ChatAIKit3BotV6encode2toys7Encoder_p_tKF",
+            "moduleName": "ChatAIKit",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit3BotV9hashValueSivp",
+            "mangledName": "$s9ChatAIKit3BotV9hashValueSivp",
+            "moduleName": "ChatAIKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit3BotV9hashValueSivg",
+                "mangledName": "$s9ChatAIKit3BotV9hashValueSivg",
+                "moduleName": "ChatAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ChatAIKit3BotV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9ChatAIKit3BotV4hash4intoys6HasherVz_tF",
+            "moduleName": "ChatAIKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bot",
+                "printedName": "ChatAIKit.Bot",
+                "usr": "s:9ChatAIKit3BotV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bot",
+                "printedName": "ChatAIKit.Bot",
+                "usr": "s:9ChatAIKit3BotV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ChatAIKit3BotV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9ChatAIKit3BotV2eeoiySbAC_ACtFZ",
+            "moduleName": "ChatAIKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9ChatAIKit3BotV",
+        "mangledName": "$s9ChatAIKit3BotV",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChatScreen",
+        "printedName": "ChatScreen",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit0A6ScreenV4bodyQrvp",
+            "mangledName": "$s9ChatAIKit0A6ScreenV4bodyQrvp",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit0A6ScreenV4bodyQrvg",
+                "mangledName": "$s9ChatAIKit0A6ScreenV4bodyQrvg",
+                "moduleName": "ChatAIKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<BackView where BackView : SwiftUI.View>",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9ChatAIKit0A6ScreenV",
+        "mangledName": "$s9ChatAIKit0A6ScreenV",
+        "moduleName": "ChatAIKit",
+        "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+        "sugared_genericSig": "<BackView where BackView : SwiftUI.View>",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChatAI",
+        "printedName": "ChatAI",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChatAI",
+                "printedName": "ChatAIKit.ChatAI",
+                "usr": "s:9ChatAIKit0A2AIC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ChatAIKit0A2AIC6sharedACvpZ",
+            "mangledName": "$s9ChatAIKit0A2AIC6sharedACvpZ",
+            "moduleName": "ChatAIKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatAI",
+                    "printedName": "ChatAIKit.ChatAI",
+                    "usr": "s:9ChatAIKit0A2AIC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ChatAIKit0A2AIC6sharedACvgZ",
+                "mangledName": "$s9ChatAIKit0A2AIC6sharedACvgZ",
+                "moduleName": "ChatAIKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setAnalyticsListener",
+            "printedName": "setAnalyticsListener(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ChatAIAnalyticsListener",
+                "printedName": "any ChatAIKit.ChatAIAnalyticsListener",
+                "usr": "s:9ChatAIKit0A19AIAnalyticsListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ChatAIKit0A2AIC20setAnalyticsListeneryyAA0a11AIAnalyticsF0_pF",
+            "mangledName": "$s9ChatAIKit0A2AIC20setAnalyticsListeneryyAA0a11AIAnalyticsF0_pF",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initAsync",
+            "printedName": "initAsync(apiKey:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ChatAIKit.InitResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InitResult",
+                    "printedName": "ChatAIKit.InitResult",
+                    "usr": "s:9ChatAIKit10InitResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ChatAIKit0A2AIC9initAsync6apiKey8callbackySS_yAA10InitResultOctF",
+            "mangledName": "$s9ChatAIKit0A2AIC9initAsync6apiKey8callbackySS_yAA10InitResultOctF",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<[ChatAIKit.Bot], any Swift.Error>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ChatAIKit.Bot]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bot",
+                        "printedName": "ChatAIKit.Bot",
+                        "usr": "s:9ChatAIKit3BotV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ChatAIKit0A2AIC10initialize6apiKeys6ResultOySayAA3BotVGs5Error_pGSS_tYaF",
+            "mangledName": "$s9ChatAIKit0A2AIC10initialize6apiKeys6ResultOySayAA3BotVGs5Error_pGSS_tYaF",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBots",
+            "printedName": "getBots()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ChatAIKit.Bot]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bot",
+                    "printedName": "ChatAIKit.Bot",
+                    "usr": "s:9ChatAIKit3BotV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ChatAIKit0A2AIC7getBotsSayAA3BotVGyF",
+            "mangledName": "$s9ChatAIKit0A2AIC7getBotsSayAA3BotVGyF",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "chatView",
+            "printedName": "chatView(for:backView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bot",
+                "printedName": "ChatAIKit.Bot",
+                "usr": "s:9ChatAIKit3BotV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> τ_0_0)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> τ_0_0",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ChatAIKit0A2AIC8chatView3for04backE0QrAA3BotV_xycSgt7SwiftUI0E0RzlF",
+            "mangledName": "$s9ChatAIKit0A2AIC8chatView3for04backE0QrAA3BotV_xycSgt7SwiftUI0E0RzlF",
+            "moduleName": "ChatAIKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<BackView where BackView : SwiftUI.View>",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9ChatAIKit0A2AIC",
+        "mangledName": "$s9ChatAIKit0A2AIC",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChatAIAnalyticsListener",
+        "printedName": "ChatAIAnalyticsListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onSdkInitialized",
+            "printedName": "onSdkInitialized(success:botsCount:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ChatAIKit0A19AIAnalyticsListenerP16onSdkInitialized7success9botsCount5errorySb_Sis5Error_pSgtF",
+            "mangledName": "$s9ChatAIKit0A19AIAnalyticsListenerP16onSdkInitialized7success9botsCount5errorySb_Sis5Error_pSgtF",
+            "moduleName": "ChatAIKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ChatAIKit.ChatAIAnalyticsListener>",
+            "sugared_genericSig": "<Self where Self : ChatAIKit.ChatAIAnalyticsListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onBotFetched",
+            "printedName": "onBotFetched(bot:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bot",
+                "printedName": "ChatAIKit.Bot",
+                "usr": "s:9ChatAIKit3BotV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ChatAIKit0A19AIAnalyticsListenerP12onBotFetched3botyAA0F0V_tF",
+            "mangledName": "$s9ChatAIKit0A19AIAnalyticsListenerP12onBotFetched3botyAA0F0V_tF",
+            "moduleName": "ChatAIKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ChatAIKit.ChatAIAnalyticsListener>",
+            "sugared_genericSig": "<Self where Self : ChatAIKit.ChatAIAnalyticsListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onChatStarted",
+            "printedName": "onChatStarted(bot:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bot",
+                "printedName": "ChatAIKit.Bot",
+                "usr": "s:9ChatAIKit3BotV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ChatAIKit0A19AIAnalyticsListenerP02onA7Started3botyAA3BotV_tF",
+            "mangledName": "$s9ChatAIKit0A19AIAnalyticsListenerP02onA7Started3botyAA3BotV_tF",
+            "moduleName": "ChatAIKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ChatAIKit.ChatAIAnalyticsListener>",
+            "sugared_genericSig": "<Self where Self : ChatAIKit.ChatAIAnalyticsListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onMessageSent",
+            "printedName": "onMessageSent(bot:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bot",
+                "printedName": "ChatAIKit.Bot",
+                "usr": "s:9ChatAIKit3BotV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ChatAIKit0A19AIAnalyticsListenerP13onMessageSent3bot7messageyAA3BotV_SStF",
+            "mangledName": "$s9ChatAIKit0A19AIAnalyticsListenerP13onMessageSent3bot7messageyAA3BotV_SStF",
+            "moduleName": "ChatAIKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ChatAIKit.ChatAIAnalyticsListener>",
+            "sugared_genericSig": "<Self where Self : ChatAIKit.ChatAIAnalyticsListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onMessageReceived",
+            "printedName": "onMessageReceived(bot:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bot",
+                "printedName": "ChatAIKit.Bot",
+                "usr": "s:9ChatAIKit3BotV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ChatAIKit0A19AIAnalyticsListenerP17onMessageReceived3bot7messageyAA3BotV_SStF",
+            "mangledName": "$s9ChatAIKit0A19AIAnalyticsListenerP17onMessageReceived3bot7messageyAA3BotV_SStF",
+            "moduleName": "ChatAIKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ChatAIKit.ChatAIAnalyticsListener>",
+            "sugared_genericSig": "<Self where Self : ChatAIKit.ChatAIAnalyticsListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(bot:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ChatAIKit.Bot?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bot",
+                    "printedName": "ChatAIKit.Bot",
+                    "usr": "s:9ChatAIKit3BotV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ChatAIKit0A19AIAnalyticsListenerP7onError3bot5erroryAA3BotVSg_s0F0_ptF",
+            "mangledName": "$s9ChatAIKit0A19AIAnalyticsListenerP7onError3bot5erroryAA3BotVSg_s0F0_ptF",
+            "moduleName": "ChatAIKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ChatAIKit.ChatAIAnalyticsListener>",
+            "sugared_genericSig": "<Self where Self : ChatAIKit.ChatAIAnalyticsListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9ChatAIKit0A19AIAnalyticsListenerP",
+        "mangledName": "$s9ChatAIKit0A19AIAnalyticsListenerP",
+        "moduleName": "ChatAIKit",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InitResult",
+        "printedName": "InitResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ChatAIKit.InitResult.Type) -> ([ChatAIKit.Bot]) -> ChatAIKit.InitResult",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([ChatAIKit.Bot]) -> ChatAIKit.InitResult",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InitResult",
+                        "printedName": "ChatAIKit.InitResult",
+                        "usr": "s:9ChatAIKit10InitResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(bots: [ChatAIKit.Bot])",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[ChatAIKit.Bot]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bot",
+                                "printedName": "ChatAIKit.Bot",
+                                "usr": "s:9ChatAIKit3BotV"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ChatAIKit.InitResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InitResult",
+                        "printedName": "ChatAIKit.InitResult",
+                        "usr": "s:9ChatAIKit10InitResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9ChatAIKit10InitResultO7successyACSayAA3BotVG_tcACmF",
+            "mangledName": "$s9ChatAIKit10InitResultO7successyACSayAA3BotVG_tcACmF",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failure",
+            "printedName": "failure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ChatAIKit.InitResult.Type) -> (Swift.Int?, Swift.String) -> ChatAIKit.InitResult",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int?, Swift.String) -> ChatAIKit.InitResult",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InitResult",
+                        "printedName": "ChatAIKit.InitResult",
+                        "usr": "s:9ChatAIKit10InitResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(code: Swift.Int?, message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Int?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ChatAIKit.InitResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InitResult",
+                        "printedName": "ChatAIKit.InitResult",
+                        "usr": "s:9ChatAIKit10InitResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9ChatAIKit10InitResultO7failureyACSiSg_SStcACmF",
+            "mangledName": "$s9ChatAIKit10InitResultO7failureyACSiSg_SStcACmF",
+            "moduleName": "ChatAIKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9ChatAIKit10InitResultO",
+        "mangledName": "$s9ChatAIKit10InitResultO",
+        "moduleName": "ChatAIKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/DAO\/AssistantChatMessageDAO.swift",
+      "kind": "IntegerLiteral",
+      "offset": 708,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/DAO\/CoreDataStack.swift",
+      "kind": "StringLiteral",
+      "offset": 405,
+      "length": 11,
+      "value": "\"ChatAIKit\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/DAO\/CoreDataStack.swift",
+      "kind": "StringLiteral",
+      "offset": 433,
+      "length": 6,
+      "value": "\"momd\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/DAO\/CoreDataStack.swift",
+      "kind": "StringLiteral",
+      "offset": 549,
+      "length": 66,
+      "value": "\"⚠️ Impossible de charger le modèle Core Data ChatAIKit.momd\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/DAO\/CoreDataStack.swift",
+      "kind": "StringLiteral",
+      "offset": 684,
+      "length": 11,
+      "value": "\"ChatAIKit\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/DAO\/CoreDataStack.swift",
+      "kind": "StringLiteral",
+      "offset": 849,
+      "length": 31,
+      "value": "\"CoreData load error: \""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/DAO\/CoreDataStack.swift",
+      "kind": "StringLiteral",
+      "offset": 879,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 1611,
+      "length": 8,
+      "value": "\"bot_id\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 1688,
+      "length": 12,
+      "value": "\"created_at\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 1726,
+      "length": 12,
+      "value": "\"profile_id\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 1769,
+      "length": 17,
+      "value": "\"welcome_message\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 1836,
+      "length": 18,
+      "value": "\"background_light\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 1885,
+      "length": 17,
+      "value": "\"background_dark\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 1934,
+      "length": 19,
+      "value": "\"header_text_light\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 1984,
+      "length": 18,
+      "value": "\"header_text_dark\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 2033,
+      "length": 18,
+      "value": "\"bot_bubble_light\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 2081,
+      "length": 17,
+      "value": "\"bot_bubble_dark\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 2127,
+      "length": 16,
+      "value": "\"bot_text_light\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 2171,
+      "length": 15,
+      "value": "\"bot_text_dark\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 2218,
+      "length": 19,
+      "value": "\"user_bubble_light\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 2268,
+      "length": 18,
+      "value": "\"user_bubble_dark\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 2316,
+      "length": 17,
+      "value": "\"user_text_light\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 2362,
+      "length": 16,
+      "value": "\"user_text_dark\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 2479,
+      "length": 17,
+      "value": "\"response_length\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 2534,
+      "length": 25,
+      "value": "\"header_background_light\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 2596,
+      "length": 24,
+      "value": "\"header_background_dark\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 2658,
+      "length": 25,
+      "value": "\"footer_background_light\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 2720,
+      "length": 24,
+      "value": "\"footer_background_dark\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 2781,
+      "length": 24,
+      "value": "\"button_background_dark\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 2843,
+      "length": 25,
+      "value": "\"button_background_light\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 2899,
+      "length": 18,
+      "value": "\"button_text_dark\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 2949,
+      "length": 19,
+      "value": "\"button_text_light\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 3003,
+      "length": 23,
+      "value": "\"add_history_to_prompt\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 3054,
+      "length": 14,
+      "value": "\"openai_model\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 3096,
+      "length": 15,
+      "value": "\"use_send_icon\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/Bot.swift",
+      "kind": "StringLiteral",
+      "offset": 3310,
+      "length": 16,
+      "value": "\"openai_api_key\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Model\/GPTTurboMessageBody.swift",
+      "kind": "StringLiteral",
+      "offset": 398,
+      "length": 15,
+      "value": "\"gpt-3.5-turbo\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Service\/AssistantService.swift",
+      "kind": "StringLiteral",
+      "offset": 185,
+      "length": 28,
+      "value": "\"https:\/\/api.openai.com\/v1\/\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Data\/Service\/BotService.swift",
+      "kind": "StringLiteral",
+      "offset": 173,
+      "length": 28,
+      "value": "\"https:\/\/budy-talk.com\/api\/\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Domain\/UseCase\/ChatAiUseCase.swift",
+      "kind": "Array",
+      "offset": 559,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Presentation\/View\/MessageInput.swift",
+      "kind": "BooleanLiteral",
+      "offset": 290,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Presentation\/View\/UserBubble.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1663,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Presentation\/ViewModel\/ChatViewModel.swift",
+      "kind": "Array",
+      "offset": 233,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Presentation\/ViewModel\/ChatViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 273,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/Presentation\/ViewModel\/ChatViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 352,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/david\/dev\/chataikit-ios\/ChatAIKit\/ChatAIKit\/ChatAI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 332,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

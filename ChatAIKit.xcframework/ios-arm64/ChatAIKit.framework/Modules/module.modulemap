@@ -1,0 +1,6 @@
+framework module ChatAIKit {
+  umbrella header "ChatAIKit.h"
+  export *
+
+  module * { export * }
+}

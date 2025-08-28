@@ -1,0 +1,89 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target x86_64-apple-ios18.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ChatAIKit
+@_exported import ChatAIKit
+import Combine
+import CoreData
+import Foundation
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct Bot : Swift.Codable, Swift.Identifiable, Swift.Hashable {
+  public let id: Swift.String
+  public let botId: Swift.String
+  public let name: Swift.String
+  public let description: Swift.String?
+  public let createdAt: Swift.String
+  public let profileId: Swift.String
+  public let welcomeMessage: [Swift.String : Swift.String?]?
+  public let icon: Swift.String?
+  public let backgroundLight: Swift.String?
+  public let backgroundDark: Swift.String?
+  public let headerTextLight: Swift.String?
+  public let headerTextDark: Swift.String?
+  public let botBubbleLight: Swift.String?
+  public let botBubbleDark: Swift.String?
+  public let botTextLight: Swift.String?
+  public let botTextDark: Swift.String?
+  public let userBubbleLight: Swift.String?
+  public let userBubbleDark: Swift.String?
+  public let userTextLight: Swift.String?
+  public let userTextDark: Swift.String?
+  public let language: Swift.String?
+  public let tones: [Swift.String]?
+  public let specializations: [Swift.String]?
+  public let responseLength: Swift.String?
+  public let headerBackgroundLight: Swift.String?
+  public let headerBackgroundDark: Swift.String?
+  public let footerBackgroundLight: Swift.String?
+  public let footerBackgroundDark: Swift.String?
+  public let buttonBackgroundDark: Swift.String?
+  public let buttonBackgroundLight: Swift.String?
+  public let buttonTextDark: Swift.String?
+  public let buttonTextLight: Swift.String?
+  public let addHistoryToPrompt: Swift.Bool?
+  public let openaiModel: Swift.String?
+  public let useSendIcon: Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ChatAIKit.Bot, b: ChatAIKit.Bot) -> Swift.Bool
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  public typealias ID = Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_Concurrency.MainActor @preconcurrency public struct ChatScreen<BackView> : SwiftUICore.View where BackView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  public typealias Body = @_opaqueReturnTypeOf("$s9ChatAIKit0A6ScreenV4bodyQrvp", 0) __<BackView>
+}
+@_hasMissingDesignatedInitializers final public class ChatAI {
+  public static let shared: ChatAIKit.ChatAI
+  final public func setAnalyticsListener(_ listener: any ChatAIKit.ChatAIAnalyticsListener)
+  @_Concurrency.MainActor final public func initAsync(apiKey: Swift.String, callback: @escaping ChatAIKit.InitCallback)
+  @_Concurrency.MainActor final public func initialize(apiKey: Swift.String) async -> Swift.Result<[ChatAIKit.Bot], any Swift.Error>
+  final public func getBots() -> [ChatAIKit.Bot]
+  @_Concurrency.MainActor final public func chatView<BackView>(for bot: ChatAIKit.Bot, backView: (() -> BackView)? = nil) -> some SwiftUICore.View where BackView : SwiftUICore.View
+  
+  @objc deinit
+}
+public protocol ChatAIAnalyticsListener : AnyObject {
+  func onSdkInitialized(success: Swift.Bool, botsCount: Swift.Int, error: (any Swift.Error)?)
+  func onBotFetched(bot: ChatAIKit.Bot)
+  func onChatStarted(bot: ChatAIKit.Bot)
+  func onMessageSent(bot: ChatAIKit.Bot, message: Swift.String)
+  func onMessageReceived(bot: ChatAIKit.Bot, message: Swift.String)
+  func onError(bot: ChatAIKit.Bot?, error: any Swift.Error)
+}
+public enum InitResult {
+  case success(bots: [ChatAIKit.Bot])
+  case failure(code: Swift.Int?, message: Swift.String)
+}
+public typealias InitCallback = (ChatAIKit.InitResult) -> Swift.Void
+extension ChatAIKit.ChatScreen : Swift.Sendable {}
